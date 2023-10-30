@@ -47,7 +47,7 @@ export default function FormularioDeRegistro() {
             alert(error.msg);
         }
 
-        if(respuesta.status == 201) {
+        if (respuesta.status == 201) {
             router.push("/auth/iniciar-sesion")
         }
 
@@ -240,7 +240,7 @@ export default function FormularioDeRegistro() {
                             type="submit"
                             value="Registrarse"
                             className="block w-full rounded-lg bg-teal-600 px-5 py-3 text-sm font-medium text-white"
-                
+
                         />
 
                         <p className="text-center text-sm text-gray-500">
@@ -250,7 +250,7 @@ export default function FormularioDeRegistro() {
 
                     </div>
                 </div>
-                
+
             </form>
             <Link href="/perfil">Ir al perfil</Link>
         </>
