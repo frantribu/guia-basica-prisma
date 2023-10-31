@@ -7,7 +7,7 @@ export default function Page() {
     const { user } = useContext(UserContext);   
 
     return(
-        <section className="perfil">
+        <section className="perfil bg-white">
 
 <div className="flow-root">
   <dl className="-my-3 divide-y divide-gray-100 text-sm">

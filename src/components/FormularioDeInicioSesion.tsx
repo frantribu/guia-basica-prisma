@@ -7,8 +7,6 @@ import { UserContext } from "@/context/UserContext";
 import { useRouter } from 'next/navigation'
 import Link from "next/link";
 
-
-
 export default function FormularioDeInicioSesion() {
     const emailRef = useRef(null)
     const passwordRef = useRef(null)
@@ -20,7 +18,6 @@ export default function FormularioDeInicioSesion() {
         evento.preventDefault()
 
         const datosAEnviar = {
-
             //@ts-ignore
             email: emailRef.current?.value,
             //@ts-ignore
